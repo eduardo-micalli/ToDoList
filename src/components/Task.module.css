@@ -1,0 +1,48 @@
+.task {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.3rem;
+}
+
+.taskItems {
+    display: flex;
+}
+
+.task p {
+    font-size: 0.875rem;
+    color: var(--gray-100);
+    margin-left: 1rem;
+    line-height: 1.6;
+}
+
+.task .contentChecked {
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+
+.task button {
+    background: transparent;
+    border: 0;
+}
+
+.unchecked {
+    color: var(--blue-200);
+}
+
+.checked {
+    color: var(--purple-500);
+}
+
+.trash {
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+.trash:hover {
+    color: var(--red-500);
+}
